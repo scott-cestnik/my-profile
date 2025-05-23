@@ -1,0 +1,76 @@
+body {
+	background-color: lightgrey;
+	color: #06202B;
+	font-family: playfair display;
+}
+
+h1, h2, h3 {
+
+	font-family: "Ancizar Serif";
+}
+
+h1 {
+	color: #06202B;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: lightblack;
+	font-size: 24px;
+	font-weight: 600;
+
+}
+a {
+	text-decoration: none;
+	color: purple;
+	padding: 10px 20px;
+	font-weight: 600;
+	font-family: "Ancizar Serif";
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: lightgrey;
+	
+}
+
+
+a:hover{
+	color: blue;
+}
+
+
+.inner{
+	background-color: whitesmoke;
+	padding: 35px;
+	border:2px black;
+	margin:10px auto;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.13);
+	border-radius: 5px;
+	width: 400px;
+}
+
+img { 
+	border-radius: 50%;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto 20px;
+ }
+
+ ul{
+ 	list-style: none;
+ 	padding-left: 0px;
+ }
+
+@media (maxwidth: 900px) {
+ 	.outer{
+ 		width:700px;
+ 	}
+ }
+
+ @media (maxwidth: 500px) {
+ 	.outer{
+ 		width:400px;
+ 	}
+ }
